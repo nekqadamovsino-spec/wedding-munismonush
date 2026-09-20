@@ -29,3 +29,18 @@ footer{background:#2f2118;color:#f5e8d8;text-align:center;padding:45px 20px}.sma
 
 .place-card{grid-template-columns:1fr;max-width:620px;text-align:center}
 @media(max-width:400px){h1{font-size:clamp(42px,13vw,52px);letter-spacing:.04em}}
+.place-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 850px;
+  gap: 24px;
+  text-align: center;
+}
+
+.place-card img.venue-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 18px 45px rgba(49, 34, 20, 0.15);
+}
